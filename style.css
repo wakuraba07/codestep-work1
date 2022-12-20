@@ -372,16 +372,18 @@ body
     {
         width: 100%;
         margin: 0;
-        padding: 15px 0 0;
+        padding: 15px 15px 0;
         font-size: 14.4px;
+        box-sizing: border-box;
     }
     main #news dd
     {
         width: 100%;
         float: left;
         margin: 0;
-        padding: 0 0 15px;
+        padding: 0 15px 15px;
         font-size: 14.4px;
+        box-sizing: border-box;
         border-bottom: solid 1px #c8c8c8;
     }
 
