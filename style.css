@@ -359,3 +359,46 @@ footer
         margin: 0;
     }
 }
+
+/* スマホ画面 */
+@media screen and (min-width:1920px)
+{
+    /* ヘッダー */
+    header
+    {
+        max-width: 50%;
+    }
+    main h2
+    {
+        max-width: 50%;
+    }
+    main .mainvisual 
+    {
+        max-width: 100%;
+    }
+    main .mainvisual img 
+    {
+        max-width: 100%;
+        height: auto;
+    }
+    main #about ul
+    {
+        max-width: 50%;
+    }
+    main .profile
+    {
+        max-width: 50%;
+    }
+    main #work ul
+    {
+        max-width: 50%;
+    }
+    main #news
+    {
+        max-width: 50%;
+    }
+    main #contact
+    {
+        max-width: 50%;
+    }
+}
